@@ -114,7 +114,7 @@ def socksproxy():
 		for proxy in bproxy:
 			with open(f"socks5{country_code}.txt", 'a') as a:
 				a.write(f"{proxy}\n")
-		print(Center.XCenter(f"[{green}*{off}] {proxy_count} Proxys Saved on https_{country_code}.txt"))
+		print(Center.XCenter(f"[{green}*{off}] {proxy_count} Proxys Saved on sock5_{country_code}.txt"))
 		sleep(4)
 		main()
 	else:
